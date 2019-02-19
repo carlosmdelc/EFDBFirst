@@ -61,9 +61,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Courses\Courses.csproj">
+    <ProjectReference Include="..\Courses\CodeFirst.csproj">
       <Project>{22857d65-7263-4892-bf11-102fdf27c40a}</Project>
-      <Name>Courses</Name>
+      <Name>CodeFirst</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

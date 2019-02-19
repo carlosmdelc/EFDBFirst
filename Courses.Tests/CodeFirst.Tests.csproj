@@ -64,9 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Courses\Courses.csproj">
+    <ProjectReference Include="..\Courses\CodeFirst.csproj">
       <Project>{22857D65-7263-4892-BF11-102FDF27C40A}</Project>
-      <Name>Courses</Name>
+      <Name>CodeFirst</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

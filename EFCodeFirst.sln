@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses", "Courses\Courses.csproj", "{22857D65-7263-4892-BF11-102FDF27C40A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "Courses\CodeFirst.csproj", "{22857D65-7263-4892-BF11-102FDF27C40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses.Tests", "Courses.Tests\Courses.Tests.csproj", "{C75E6722-ED97-4D20-820B-061CD279CD86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst.Tests", "Courses.Tests\CodeFirst.Tests.csproj", "{C75E6722-ED97-4D20-820B-061CD279CD86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursesModel.DataLayer", "CoursesModel.DataLayer\CoursesModel.DataLayer.csproj", "{4A3243C3-9515-4380-B823-0525932544C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstModel.DataLayer", "CoursesModel.DataLayer\CodeFirstModel.DataLayer.csproj", "{4A3243C3-9515-4380-B823-0525932544C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
