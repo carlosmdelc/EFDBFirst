@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Courses.Classes
+namespace CodeFirst.Classes
 {
     public class Tag
     {

@@ -1,4 +1,4 @@
-﻿namespace Courses.Enums
+﻿namespace CodeFirst.Enums
 {
     public enum CourseLevel
     {

@@ -1,18 +1,18 @@
-namespace CoursesModel.DataLayer.Migrations
+namespace CodeFirstModel.DataLayer.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CoursesModel.DataLayer.PlutoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstModel.DataLayer.PlutoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(CoursesModel.DataLayer.PlutoContext context)
+        protected override void Seed(CodeFirstModel.DataLayer.PlutoContext context)
         {
             //  This method will be called after migrating to the latest version.
 

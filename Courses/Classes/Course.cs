@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Configuration;
-using Courses.Enums;
+using CodeFirst.Enums;
 
-namespace Courses.Classes
+namespace CodeFirst.Classes
 {
     public class Course
     {

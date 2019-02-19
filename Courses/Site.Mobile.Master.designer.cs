@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Courses {
+namespace CodeFirst {
     
     
     public partial class Site_Mobile {

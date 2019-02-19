@@ -1,4 +1,4 @@
-namespace CoursesModel.DataLayer.Migrations
+namespace CodeFirstModel.DataLayer.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

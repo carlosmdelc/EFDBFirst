@@ -4,9 +4,9 @@ using System.Data.Entity;           // Must be used when working with Entity Fra
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Courses.Classes;
+using CodeFirst.Classes;
 
-namespace CoursesModel.DataLayer
+namespace CodeFirstModel.DataLayer
 {
     public class PlutoContext : DbContext
     {
