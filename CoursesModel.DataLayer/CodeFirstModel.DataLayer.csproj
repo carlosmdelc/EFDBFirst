@@ -48,9 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201902080532127_InitialModel.cs" />
-    <Compile Include="Migrations\201902080532127_InitialModel.Designer.cs">
-      <DependentUpon>201902080532127_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201902280237281_ApplyNoChanges.cs" />
+    <Compile Include="Migrations\201902280237281_ApplyNoChanges.Designer.cs">
+      <DependentUpon>201902280237281_ApplyNoChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902280247299_AddCategoriesTable.cs" />
+    <Compile Include="Migrations\201902280247299_AddCategoriesTable.Designer.cs">
+      <DependentUpon>201902280247299_AddCategoriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902280300476_AddCategoryColumnToCoursesTable.cs" />
+    <Compile Include="Migrations\201902280300476_AddCategoryColumnToCoursesTable.Designer.cs">
+      <DependentUpon>201902280300476_AddCategoryColumnToCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902280320388_AddDatePublishedColumnToCoursesTable.cs" />
+    <Compile Include="Migrations\201902280320388_AddDatePublishedColumnToCoursesTable.Designer.cs">
+      <DependentUpon>201902280320388_AddDatePublishedColumnToCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902280324483_RenameTitleToNameInCoursesTable.cs" />
+    <Compile Include="Migrations\201902280324483_RenameTitleToNameInCoursesTable.Designer.cs">
+      <DependentUpon>201902280324483_RenameTitleToNameInCoursesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902280347393_AddDateCreatedFieldToCoursesTable.cs" />
+    <Compile Include="Migrations\201902280347393_AddDateCreatedFieldToCoursesTable.Designer.cs">
+      <DependentUpon>201902280347393_AddDateCreatedFieldToCoursesTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
@@ -67,8 +87,23 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201902080532127_InitialModel.resx">
-      <DependentUpon>201902080532127_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201902280237281_ApplyNoChanges.resx">
+      <DependentUpon>201902280237281_ApplyNoChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902280247299_AddCategoriesTable.resx">
+      <DependentUpon>201902280247299_AddCategoriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902280300476_AddCategoryColumnToCoursesTable.resx">
+      <DependentUpon>201902280300476_AddCategoryColumnToCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902280320388_AddDatePublishedColumnToCoursesTable.resx">
+      <DependentUpon>201902280320388_AddDatePublishedColumnToCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902280324483_RenameTitleToNameInCoursesTable.resx">
+      <DependentUpon>201902280324483_RenameTitleToNameInCoursesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902280347393_AddDateCreatedFieldToCoursesTable.resx">
+      <DependentUpon>201902280347393_AddDateCreatedFieldToCoursesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

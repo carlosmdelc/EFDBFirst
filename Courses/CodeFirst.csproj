@@ -182,6 +182,7 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Classes\Author.cs" />
+    <Compile Include="Classes\Category.cs" />
     <Compile Include="Classes\Course.cs" />
     <Compile Include="Enums\CourseLevel.cs" />
     <Compile Include="Classes\Tag.cs" />

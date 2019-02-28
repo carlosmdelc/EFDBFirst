@@ -7,13 +7,13 @@ namespace CodeFirstModel.DataLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class RenameTitleToNameInCoursesTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(RenameTitleToNameInCoursesTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201902080532127_InitialModel"; }
+            get { return "201902280324483_RenameTitleToNameInCoursesTable"; }
         }
         
         string IMigrationMetadata.Source

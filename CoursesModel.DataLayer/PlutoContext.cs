@@ -15,6 +15,7 @@ namespace CodeFirstModel.DataLayer
         public DbSet<Course> Courses { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         // The name of the connection string is different from the one in DbContext (DefaultConnection)
         // Because we have broken the convention, we need to tell EF explicitly what is the name of the connection string.
@@ -27,5 +28,17 @@ namespace CodeFirstModel.DataLayer
     }
 }
 
-// Go to Package Manager Console and Enable migrations
+// Go to Package Manager Console and Enable migrations. This is only run once in the project.
 // PM> enable-migrations
+
+// Adding migration.
+// After run the command you will see under the Migrations folder the script for the migration 201902210126333_ThisIsTheNameOfTheMigration.cs
+// PM> add-migration ThisIsTheNameOfTheMigration
+
+// To run migrations.
+// PM> update-database
+
+
+// If you add a new class and create a migration you will see nothing,
+// that's because it should be added into the Context as DbSet
+// add-migration AddCategoriesTable -Force      -> this to override the AddCategoriesTable migration.
