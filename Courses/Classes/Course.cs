@@ -13,7 +13,10 @@ namespace CodeFirst.Classes
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public Category Category { get; set; }
+
+        // We are going to delete the Category class.
+        // public Category Category { get; set; }
+        // Create migration -> add-migration DeleteCategoryColmnFromCoursesTable
         public DateTime? DateCreated { get; set; }
         public DateTime? DatePublished { get; set; }        // Because we use DateTime here when we create a migration this field will be
                                                             // a required column, is not going to be Nullable because the DateTime type is a 

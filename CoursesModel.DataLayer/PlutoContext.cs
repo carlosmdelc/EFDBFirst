@@ -15,7 +15,9 @@ namespace CodeFirstModel.DataLayer
         public DbSet<Course> Courses { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Tag> Tags { get; set; }
-        public DbSet<Category> Categories { get; set; }
+
+        // We are going to delete the Categories class
+        // public DbSet<Category> Categories { get; set; }
 
         // The name of the connection string is different from the one in DbContext (DefaultConnection)
         // Because we have broken the convention, we need to tell EF explicitly what is the name of the connection string.
